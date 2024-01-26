@@ -74,7 +74,7 @@ newspapers.forEach((newspaper) => {
   });
 });
 
-app.get("/muratisgreat", function (req, res) {
+app.get("/", function (req, res) {
   res.json("welcome to my climate change News API");
 });
 
